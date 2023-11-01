@@ -1,0 +1,276 @@
+:root {
+    --color-principal: #060227;
+    --color-text: #90d8fa;
+    --color-2-text: #27217c;
+    --color-3-text: #c1bcf5;
+    --background: #c0e4f0;
+    --white: #fff;
+    --black: #000;
+    scroll-behavior: smooth;
+    font-family: 'Merriweather', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ 
+/* Menu navegação */
+a:link {
+    color: var(--background);
+}
+
+a:visited {
+    color: var(--background)
+}
+
+a:hover {
+    color: var(---color-text);
+    transform: translateY(-10px);
+    transition: .2s;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    border: 3px var(--color-principal);
+    background-color: var(--color-principal);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    left: 0%;
+}
+
+.navbar li {
+    padding: 20px 0;
+    border-right: 1px solid #639aec;
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+
+/* Página Home */
+.banner-header {
+    background-image: url(./OIP.jpg);
+    width: 100%;
+    height: 94vh;
+    position: relative;
+    top: 5px;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.banner-header div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: var(--color-3-text);
+    justify-content: center;
+    display: flex;
+}
+
+/*QuemSomos*/
+.prinTitulo {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+    color: var(--color-principal); 
+
+  }
+  
+  .subTitulo {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: var(--color-2-text); 
+  }
+  .immagem_da_Expo {
+    width: 400%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0,10%;
+  }
+
+  .paragrafo{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px;
+    padding-left: 200px;
+    width: 50%;
+    font-size: 20px;
+    color: var(--color-3-text);
+
+  }
+
+  .seçao_1{
+    margin-top: 80px;
+    display: flex;
+    background-color: var(--color-principal);
+    justify-content: center;
+
+  }
+
+  .fotos-da-expo{
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    font-size: 24pt;
+    font-weight: 700;
+    color: var(--color-principal); 
+    justify-content: center;
+    display: flex;
+    background-color: var(--white);
+    border: 10px groove var(--black);
+    width: 30%; 
+    height:100%;
+
+  }
+
+  .immagem1 {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 600px;
+  }
+
+  .immagem2 {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 600px;
+  }
+
+  .immagem3 {
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 600px;
+  }
+
+  .seçao_2{
+    margin-top: 80px;
+    display: flex;
+    background-color: var(--color-2-text);
+    justify-content: center;
+
+  }
+
+  iframe{
+    justify-content: center;
+    display: flex;
+    width: 460px; 
+    height: 315px;
+    margin-left: 450px;
+    
+  }
+
+  .Video{
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    margin-top: 70px;
+    font-size: 24pt;
+    font-weight: 700;
+    color: var(--color-principal); 
+    justify-content: center;
+    display: flex;
+    background-color: var(--white);
+    border: 10px groove var(--black);
+    width: 30%; 
+    height:100%;
+
+  }
+  
+  .seçao_3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+ /* Contato*/
+  .iframe1{
+    margin: 10px auto 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 400px;
+    margin-right: 200px;
+  }
+  
+  .imagem_da_Expo {
+    
+    margin: 10px auto 10px;
+    margin-right: 200px;
+    padding-left: 10px;
+    width: 100%;
+    height: 400px;
+    
+  }
+
+  .seçao_4{
+    margin-bottom: 60px;
+    margin-top: 80px;
+    display: flex;
+    background-color: var(--color-principal);
+    justify-content: center;
+
+  }
+
+  div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .title{
+    margin: 40px auto 10px; /*margin: top right bottom left; */
+    padding-left: 10px;
+    margin-top: 70px;
+    font-size: 24pt;
+    font-weight: 700;
+    color: var(--color-principal); 
+    justify-content: center;
+    display: flex;
+    background-color: var(--white);
+    border: 10px groove var(--black);
+    width: 30%; 
+    height:100%;
+
+  }
+
+
+
+  
+ 
+    
+
+
+
+
+/*footer*/
+.footer {
+    color: var(--color-text);
+    border: 5px var(--color-principal);
+    background-color: var(--color-principal);
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--color-2-text);
+}
+
