@@ -15,34 +15,79 @@
             <li><a href="./quemsomos.html">Quem Somos</a></li>
             <li><a href="./palestrantes.html">Palestrantes</a></li>
             <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./localizacao.html">Localização</a></li>
           </ul>
       </nav>
-    </header> 
 
-    <div>
-      <h1 class="title">Como Chegar</h1>
-    </div>
-   
+    <h2 class="page-subtitle">Fale Conosco</h2>
+  </header> 
 
-    <section class="seçao_4">
-      <div>
-          <img src="./images/expo_3.jpg" alt="Expo" class="imagem_da_Expo">
-      </div>
+  <main>
+    <section class="contact-section">
+        <form class="contact-form" action="" method="" 
+          onsubmit="alert('Formulário enviado!')">
+          
+          <label for="name">Nome completo:</label>
+          <input type="text" id="name" name="name" autofocus required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="subject">Assunto:</label>
+          <select id="subject" name="subject" required>
+            <option value="Selecione">Selecione</option>
+            <option value="Credenciais">Credenciais</option>
+            <option value="Formas de Pagamento">Formas de Pagamentos</option>
+            <option value="Outro">Outro</option>
+          </select>
+  
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message"></textarea> 
+  
+          <label for="phone">Telefone:</label>
+          <input type="tel" id="phone" name="phone">
+  
+          <button>Enviar</button>
+        </form>
+        
+        <aside class="complementary-info">
+          
+          <div class="address-image">
+            <img src="./images/exppo.jpg" alt="Vista da Expo Center">
+          </div>
+          
+          <div class="address-info">
+            
+            <div class="opening-hours">
+              <h3>Horário de funcionamento</h3>
+              <p>De segunda a sexta</p>
+              <p>Das 08h às 18h</p>
+              <p>Sábados</p>
+              <p>Das 08h às 12h</p>
+            </div>
 
-      <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.577604535627!2d-46.61531482541713!3d-23.511719078833984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58bc6dd7dc49%3A0x7b04521fc16dacc1!2sRua%20Jos%C3%A9%20Bernardo%20Pinto%2C%20333%20-%20Vila%20Guilherme%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002055-000!5e0!3m2!1spt-BR!2sbr!4v1698787364874!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"   class="iframe1"></iframe>
-      </div>
+            <div class="links-sociais">
+              <a href="https://www.instagram.com/">
+                <img src="./images/insta.jpg" alt="Ícone do Instagram">
+              </a>
+              <a href="https://pt-br.facebook.com/">
+                <img src="./images/facebook.png" alt="Ícone do Facebook">
+              </a>
+              <a href="https://web.whatsapp.com/">
+                <img src="./images/whatsapp.jpg" alt="Ícone do Whatsapp">
+              </a>
+            </div>
+          </div>
+        </aside>
+      </section>
+  </main>
+  
 
-  </section>
-
-
-    
 
     <footer class="footer">
         <p>Trabalho realizado pela Aluna Helen Cristina Sousa Oliveira</p>
         <p>Descodificadas</p>
         <p>Trilha 1 </p>
-      </address>
     </footer>
 
     
