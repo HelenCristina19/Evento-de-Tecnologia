@@ -58,6 +58,18 @@ a:hover {
   text-decoration: none;
   width: 100%;
   padding: 20px 30px;
+
+}
+
+.logotipo{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: 57px;
+  margin-left: 260px;
+  font-style: var(--white);
+  border-radius: 10px;
+  opacity: 0.8;
 }
 
 
