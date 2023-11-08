@@ -66,9 +66,9 @@ a:hover {
   justify-content: center;
   width: 30%;
   height: 57px;
-  margin-left: 260px;
+  margin-left: 264px;
   font-style: var(--white);
-  border-radius: 10px;
+  border-radius: 0px;
   opacity: 0.8;
 }
 
