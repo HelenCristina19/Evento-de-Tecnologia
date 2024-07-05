@@ -381,6 +381,81 @@ div{
   margin-bottom: 30px;
 }
 
+/*Página Curiosidades*/
+
+.pictures{
+  background-image: url(./curio_event.png);
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  top: 5px;
+  text-align: center;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+}
+
+
+.corpo {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.containier {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.containier img {
+  width: 100%;
+  z-index: -2;
+}
+
+.bottao {
+  height: 10%;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  padding: 1em;
+  display: flex;
+}
+
+.bottao.arrow {
+  border: solid #fff;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.3s ease-out;
+  outline: none;
+}
+
+#right-btn {
+  margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+  transform: rotate(-45deg);
+}
+
+#left-btn {
+  z-index: 0;
+  margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+  transform: rotate(135deg);
+}
+
 
 /*footer*/
 .footer {  /*Rodapé*/
@@ -391,4 +466,5 @@ div{
     padding: 15px;
     border: 1px solid var(--color-2-text);
 }
+
 
