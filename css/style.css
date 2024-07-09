@@ -22,6 +22,7 @@ body {
 
 
 /* Menu Navegação */
+
 a:link {
   color: var(--background);
 }
@@ -75,9 +76,9 @@ a:hover {
 
 /* Página Home */
 .banner-header {
-  background-image: url(./OIP.jpg);
+  background-image: url(./OIPp.jpg);
   width: 100%;
-  height: 94vh;
+  height: 100vh;
   position: relative;
   top: 5px;
   text-align: center;
@@ -198,7 +199,6 @@ iframe{
   
 }
 
-
 .seçao_3{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -207,34 +207,52 @@ iframe{
 
 /*Página Palestrantes*/
 
-.image-container {
-  display: inline-block;
+.secao4 {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.secao4-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
   text-align: center;
+}
+
+.secao4-div-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3 - 60px);
   margin: 10px;
-  vertical-align: top;
+  padding: 20px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: white;
+  transition: all 0.5s ease;
 }
 
-.image-container img {
-  margin: 40px auto 10px; /*margin: top right bottom left; */
-  justify-content: center;
-  display: flex;
-  border: 13px groove var(--color-principal);
-  width: 30%; 
-  height:100%;
-
+.secao4-div-card:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.image-container p {
-  margin-top: 5px;
+.secao4-div-card img {
+  width: 35%;
+  height: auto;
 }
 
-.palestrantes1{
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-  margin-bottom: 20px;
+.secao4-div-card h3 {
+  margin-bottom: 0px;
 }
 
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .secao4-div-card {
+      width: 100%;
+  }
+}
 
  /* Página Contato - Formulário */
 .contact-section {
